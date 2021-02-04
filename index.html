@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>table, th, td{
+        border: dotted 1px burlywood;
+    }
+    </style>
+    <Title>Coffee Orders!</Title>
+</head>
+<body>
+    <h1>Table of Coffee Orders</h1>
+    <br> 
+<p>
+    <img src="Coffee.jpg" width="500" height="275" alt="Variety of Coffee Drinks"/>
+</p>
+    <Table>
+        <tr>
+            <th>Drink Name</th>
+            <th>Size</th>
+            <th>Creamer Amount</th>
+            <th>Sugar Amount</th>
+            <th>Extras</th>
+        </tr>
+        <tr>
+            <td>Latte</td>
+            <td>M</td>
+            <td>4</td>
+            <td>4</td>
+            <td>Cinnamon</td>
+        </tr>
+        <tr>
+            <td>Americano</td>
+            <td>S</td>
+            <td>1</td>
+            <td>2</td>
+            <td>Ice</td>
+        </tr>
+        <tr>
+            <td>Cappuccino</td>
+            <td>L</td>
+            <td>3</td>
+            <td>3</td>
+            <td>Nutmeg</td>
+        </tr>
+        <tr>
+            <td>Frappuccino</td>
+            <td>L</td>
+            <td>2</td>
+            <td>4</td>
+            <td>Caramel</td>
+        </tr>
+    </Table>
+    <div>
+    <form>
+        <Fieldset>
+        <legend>Add a Drink!</legend>
+        <div>
+            <label for="Drink">Drink:</label>
+            <input type="text" id="Drink" name="Drink">
+        </div>
+        <label for="Size">Size:</label>
+
+        <div>
+
+            <input type="radio" id="Large" name="Size" value="Large">   
+            <label for="Size">Large</label>
+            <input type="radio" id="Medium" name="Size" value="Medium">
+            <label for="Size">Medium</label>
+            <input type="radio" id="Small" name="Size" value="Small">
+            <label for="Size">Small</label>
+            
+        </div>
+
+        <label for="Creamer_Amount">Creamer Amount:</label>
+            <select name="Creamer_amount" id="Creamer_Amount">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        <br>
+        <label for="sugar_amount">Sugar Amounr</label>
+            <select name="sugar_amount" id="sugar_amount">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        <br>
+        Extras:
+        <div>
+            <input type="checkbox" id="Cinnamon" name="Cinnamon">
+            <label for="Cinnamon">Cinnamon</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Nutmeg" id="Nutmeg">
+            <label for="nutmeg">Nutmeg</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Caramel">
+            <label for="caramel">Caramel</label>
+        </div>
+
+        <p>
+            <h3>All finished?</h3>
+            <h5>Thank you!</h5>
+        <input type="submit" value="submit">
+        </p>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
+
